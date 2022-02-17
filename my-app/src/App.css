@@ -93,6 +93,23 @@ h1 {
   box-shadow: 8px 8px 5px #494E6B;
   transform: translateY(-8px);
 }
+
+@media screen and (max-width: 600px) {
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .email {
+    font-size: small;
+  }
+  .details {
+    box-sizing: 50%;
+  }
+  
+}
+
 .details {
   display: block;
   background-color: rgba(245, 245, 220, 0.644);
